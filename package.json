@@ -1,0 +1,25 @@
+{
+  "name": "glo-3002-frima-loadbalancer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "loadBalancer.js",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "~4.13.3",
+    "express-session": "~1.11.3",
+    "http-proxy": "^1.13.2",
+    "newrelic": "^1.25.3",
+    "request": "^2.69.0"
+  },
+  "engine": "node 4.0.0",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node loadBalancer.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
+  }
+}
