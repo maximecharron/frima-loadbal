@@ -7,10 +7,9 @@ var port = process.env.PORT || 2000;
 
 
 var servers = [
-    'http://frima-server-1.herokuapp.com',
-    'http://frima-server-2.herokuapp.com',
-    'http://frima-server-3.herokuapp.com',
-    'http://frima-server-4.herokuapp.com'
+    'http://ip-172-31-21-10.us-west-2.compute.internal',
+    'http://ip-172-31-38-184.us-west-2.compute.internal',
+    'http://ip-172-31-38-183.us-west-2.compute.internal'
 ];
 var failoverTimer = [];
 
