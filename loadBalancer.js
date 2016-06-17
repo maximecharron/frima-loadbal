@@ -7,9 +7,7 @@ var port = process.env.PORT || 2000;
 
 
 var servers = [
-    'http://ip-172-31-21-10.us-west-2.compute.internal',
-    'http://ip-172-31-38-184.us-west-2.compute.internal',
-    'http://ip-172-31-38-183.us-west-2.compute.internal'
+    //Insert servers URLs here
 ];
 var failoverTimer = [];
 
